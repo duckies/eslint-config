@@ -15,7 +15,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@duckies/eslint-config-basic": "workspace:*",
+    "@duckies/eslint-config-base": "workspace:*",
     "@typescript-eslint/eslint-plugin": "5.32.0",
     "@typescript-eslint/parser": "5.32.0"
   },
