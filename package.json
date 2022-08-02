@@ -1,6 +1,6 @@
 {
   "name": "@duckies/eslint-config-monorepo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "packageManager": "pnpm@7.8.0",
   "author": "John Gilbert <https://github.com/duckies>",
@@ -8,10 +8,11 @@
   "scripts": {
     "lint": "eslint .",
     "prepare": "pnpm -r run stub",
-    "release": "bump package.json packages/*/package.json --commit --push --tag && pnpm -r public --access public"
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
     "@duckies/eslint-config": "workspace:*",
+    "bumpp": "8.2.1",
     "eslint": "8.21.0",
     "typescript": "4.7.4"
   }
