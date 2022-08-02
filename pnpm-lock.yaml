@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@duckies/eslint-config': workspace:*
+      '@duckies/eslint-config': '*'
       bumpp: 8.2.1
       eslint: 8.21.0
       typescript: 4.7.4

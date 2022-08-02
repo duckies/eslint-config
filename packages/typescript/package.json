@@ -1,11 +1,11 @@
 {
   "name": "@duckies/eslint-config-ts",
   "version": "0.1.4",
-  "license": "MIT",
   "author": {
     "name": "John Gilbert",
     "url": "https://github.com/duckies"
   },
+  "license": "MIT",
   "main": "index.cjs",
   "files": [
     "index.cjs"
