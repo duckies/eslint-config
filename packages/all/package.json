@@ -1,0 +1,22 @@
+{
+  "name": "@duckies/eslint-config",
+  "version": "0.1.0",
+  "author": {
+    "name": "John Gilbert",
+    "url": "https://github.com/duckies"
+  },
+  "license": "MIT",
+  "main": "index.cjs",
+  "files": [
+    "index.cjs"
+  ],
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "dependencies": {
+    "@duckies/eslint-config-vue": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "8.21.0"
+  }
+}

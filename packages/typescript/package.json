@@ -1,0 +1,25 @@
+{
+  "name": "@duckies/eslint-config-ts",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "John Gilbert",
+    "url": "https://github.com/duckies"
+  },
+  "main": "index.cjs",
+  "files": [
+    "index.cjs"
+  ],
+  "peerDependencies": {
+    "eslint": ">=8.0.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@duckies/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "5.32.0",
+    "@typescript-eslint/parser": "5.32.0"
+  },
+  "devDependencies": {
+    "eslint": "8.21.0"
+  }
+}

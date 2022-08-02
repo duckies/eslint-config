@@ -1,0 +1,18 @@
+{
+  "name": "@duckies/eslint-config-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@7.8.0",
+  "author": "John Gilbert <https://github.com/duckies>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "pnpm -r run stub",
+    "release": "bump package.json packages/*/package.json --commit --push --tag && pnpm -r public --access public"
+  },
+  "devDependencies": {
+    "@duckies/eslint-config": "workspace:*",
+    "eslint": "8.21.0",
+    "typescript": "4.7.4"
+  }
+}
