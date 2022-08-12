@@ -58,6 +58,10 @@ module.exports = {
         'JSXEmptyExpression',
         'JSXSpreadChild',
         'TSTypeParameterInstantiation',
+        // https://github.com/typescript-eslint/typescript-eslint/issues/1824
+        'FunctionExpression > .params[decorators.length > 0]',
+        'FunctionExpression > .params > :matches(Decorator, :not(:first-child))',
+        'ClassBody.body > PropertyDefinition[decorators.length > 0] > .key',
       ],
       offsetTernaryExpressions: true,
     }],

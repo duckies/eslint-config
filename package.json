@@ -1,5 +1,6 @@
 {
   "name": "@duckies/eslint-config-monorepo",
+  "type": "module",
   "version": "0.2.1",
   "private": true,
   "packageManager": "pnpm@7.8.0",
@@ -7,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",
+    "test": "pnpm -r run test",
     "prepare": "pnpm -r run stub",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
