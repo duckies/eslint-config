@@ -1,6 +1,6 @@
 {
   "name": "@duckies/eslint-config-ts",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": {
     "name": "John Gilbert",
     "url": "https://github.com/duckies"

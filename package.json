@@ -1,7 +1,7 @@
 {
   "name": "@duckies/eslint-config-monorepo",
   "type": "module",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "private": true,
   "packageManager": "pnpm@7.8.0",
   "author": "John Gilbert <https://github.com/duckies>",
