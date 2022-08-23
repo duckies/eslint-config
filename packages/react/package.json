@@ -1,0 +1,24 @@
+{
+  "name": "@duckies/eslint-config-react",
+  "version": "0.1.0",
+  "author": {
+    "name": "John Gilbert",
+    "url": "https://github.com/duckies"
+  },
+  "license": "MIT",
+  "main": "index.cjs",
+  "files": [
+    "index.cjs"
+  ],
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "dependencies": {
+    "@duckies/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "7.30.1"
+  },
+  "devDependencies": {
+    "eslint": "8.21.0",
+    "typescript": "4.7.4"
+  }
+}
