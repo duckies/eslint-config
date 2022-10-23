@@ -1,4 +1,4 @@
-const base = import('@duckies/eslint-config-base');
+const base = require('@duckies/eslint-config-base');
 
 module.exports = {
   extends: [
@@ -97,7 +97,7 @@ module.exports = {
     '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
     'object-curly-spacing': 'off',
     '@typescript-eslint/object-curly-spacing': ['error', 'always'],
-    'semi': ['error', 'always'],
+    'semi': 'off',
     '@typescript-eslint/semi': ['error', 'always'],
     'quotes': 'off',
     '@typescript-eslint/quotes': ['error', 'single'],

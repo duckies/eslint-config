@@ -15,12 +15,7 @@
   "devDependencies": {
     "@duckies/eslint-config": "*",
     "bumpp": "8.2.1",
-    "eslint": "8.23.0",
-    "typescript": "4.7.4"
-  },
-  "prettier": {
-    "singleQuote": true,
-    "semi": true,
-    "quoteProps": "consistent"
+    "eslint": "8.26.0",
+    "typescript": "4.8.4"
   }
 }
