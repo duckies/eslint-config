@@ -3,7 +3,5 @@ module.exports = {
     'stylelint-config-standard-scss',
     'stylelint-config-standard-vue/scss',
   ],
-  plugins: [
-    'stylelint-order',
-  ],
-}
+  plugins: ['stylelint-order'],
+};
