@@ -1,6 +1,6 @@
 {
   "name": "@duckies/eslint-config-vue",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "author": {
     "name": "John Gilbert",
     "url": "https://github.com/duckies"
